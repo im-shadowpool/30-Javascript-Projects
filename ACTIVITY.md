@@ -11,3 +11,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-01-10 | 10:18:12 | im_shadowpool | feat(Project 01): display humidity and wind speed indicators |
 | 2020-01-10 | 11:48:29 | im_shadowpool | feat(Project 02): persist todo items in browser localStorage |
 | 2020-01-10 | 14:41:46 | im_shadowpool | style(Project 02): add strike-through animation on task completion |
+| 2020-01-10 | 16:34:03 | im_shadowpool | fix(Project 02): prevent adding empty or whitespace-only tasks |
