@@ -39,3 +39,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-02-10 | 10:18:12 | im_shadowpool | feat(Project 08): generate QR code dynamically from URL or text |
 | 2020-02-10 | 11:48:29 | im_shadowpool | feat(Project 08): add download QR code as PNG image button |
 | 2020-02-10 | 14:41:46 | im_shadowpool | style(Project 08): add bounce-in animation when QR code generates |
+| 2020-02-10 | 16:34:03 | im_shadowpool | fix(Project 08): clear previous QR canvas before generating new code |
