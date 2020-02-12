@@ -46,3 +46,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-02-11 | 14:41:46 | im_shadowpool | refactor(Project 09): support custom notification duration parameter |
 | 2020-02-11 | 16:34:03 | im_shadowpool | feat(Project 10): implement play, pause, next, and previous track controls |
 | 2020-02-11 | 17:17:20 | im_shadowpool | feat(Project 10): add interactive track seek bar with elapsed time display |
+| 2020-02-12 | 10:18:12 | im_shadowpool | style(Project 10): add rotating album art disk animation on playback |
