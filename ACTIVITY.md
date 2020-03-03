@@ -80,3 +80,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-03-02 | 11:48:29 | im_shadowpool | perf(Project 01): debounce city search input to reduce API calls |
 | 2020-03-02 | 14:41:46 | im_shadowpool | feat(Project 01): display humidity and wind speed indicators |
 | 2020-03-03 | 10:18:12 | im_shadowpool | feat(Project 02): persist todo items in browser localStorage |
+| 2020-03-03 | 11:48:29 | im_shadowpool | style(Project 02): add strike-through animation on task completion |
