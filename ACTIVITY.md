@@ -135,3 +135,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-04-20 | 16:34:03 | im_shadowpool | feat(Project 14): increment score by 10 on matching hit target value |
 | 2020-04-26 | 10:18:12 | im_shadowpool | style(Project 14): add bubble pop sound effect on successful click |
 | 2020-04-30 | 10:18:12 | im_shadowpool | feat(Project 15): add scientific calculations (sqrt, power, percentage) |
+| 2020-05-01 | 10:18:12 | im_shadowpool | feat(Project 15): add calculation history log drawer |
