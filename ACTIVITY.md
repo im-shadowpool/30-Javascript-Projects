@@ -193,3 +193,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-07-06 | 11:48:29 | im_shadowpool | style(Project 11): style start, pause, lap, and reset action buttons |
 | 2020-07-06 | 14:41:46 | im_shadowpool | fix(Project 11): prevent drift by calculating delta time instead of fixed interval |
 | 2020-07-07 | 10:18:12 | im_shadowpool | feat(Project 12): build core arithmetic expression evaluator |
+| 2020-07-07 | 11:48:29 | im_shadowpool | feat(Project 12): support keyboard numpad and enter key inputs |
