@@ -197,3 +197,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-07-07 | 14:41:46 | im_shadowpool | fix(Project 12): prevent multiple consecutive decimal points |
 | 2020-07-08 | 10:18:12 | im_shadowpool | style(Project 12): polish grid keypad styling with active press feedback |
 | 2020-07-15 | 10:18:12 | im_shadowpool | feat(Project 13): check for 3-in-a-row win conditions across rows and diagonals |
+| 2020-07-16 | 10:18:12 | im_shadowpool | feat(Project 13): add single-player mode against simple AI bot |
