@@ -351,3 +351,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-11-23 | 16:34:03 | im_shadowpool | style(Project 16): add linear progress bar for quiz completion |
 | 2020-11-24 | 10:18:12 | im_shadowpool | feat(Project 16): show detailed question explanation review screen |
 | 2020-11-25 | 10:18:12 | im_shadowpool | feat(Project 17): add priority badges (High, Medium, Low) to tasks |
+| 2020-11-27 | 10:18:12 | im_shadowpool | feat(Project 17): support drag and drop task reordering |
