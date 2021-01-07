@@ -387,3 +387,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2020-12-21 | 10:18:12 | im_shadowpool | style(Project 07): generate smooth background gradient transition on new quote |
 | 2020-12-21 | 11:48:29 | im_shadowpool | feat(Project 07): add speech synthesis to read quote aloud |
 | 2021-01-06 | 10:18:12 | im_shadowpool | feat(Project 08): generate QR code dynamically from URL or text |
+| 2021-01-07 | 10:18:12 | im_shadowpool | feat(Project 08): add download QR code as PNG image button |
