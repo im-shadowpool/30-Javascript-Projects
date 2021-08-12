@@ -580,3 +580,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2021-08-10 | 10:18:12 | im_shadowpool | feat(Project 03): add quiz summary score card and restart button |
 | 2021-08-10 | 11:48:29 | im_shadowpool | refactor(Project 03): extract question dataset into external JSON structure |
 | 2021-08-12 | 10:18:12 | im_shadowpool | feat(Project 04): generate cryptographically secure random passwords |
+| 2021-08-12 | 11:48:29 | im_shadowpool | feat(Project 04): add character length slider control (8-32 chars) |
