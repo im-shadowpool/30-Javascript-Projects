@@ -595,3 +595,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2021-09-05 | 10:18:12 | im_shadowpool | feat(Project 07): fetch inspirational quotes from Quotes API |
 | 2021-09-07 | 10:18:12 | im_shadowpool | feat(Project 07): add tweet quote share button with pre-filled text |
 | 2021-09-07 | 11:48:29 | im_shadowpool | style(Project 07): generate smooth background gradient transition on new quote |
+| 2021-09-07 | 14:41:46 | im_shadowpool | feat(Project 07): add speech synthesis to read quote aloud |
