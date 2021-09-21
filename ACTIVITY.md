@@ -612,3 +612,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2021-09-18 | 10:18:12 | im_shadowpool | feat(Project 11): add lap recorder tracking split times |
 | 2021-09-20 | 10:18:12 | im_shadowpool | style(Project 11): style start, pause, lap, and reset action buttons |
 | 2021-09-21 | 10:18:12 | im_shadowpool | fix(Project 11): prevent drift by calculating delta time instead of fixed interval |
+| 2021-09-21 | 11:48:29 | im_shadowpool | feat(Project 12): build core arithmetic expression evaluator |
