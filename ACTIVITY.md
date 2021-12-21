@@ -717,3 +717,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2021-12-16 | 14:41:46 | im_shadowpool | feat(Project 03): implement countdown timer per question |
 | 2021-12-16 | 16:34:03 | im_shadowpool | style(Project 03): highlight correct option in green and incorrect in red |
 | 2021-12-20 | 10:18:12 | im_shadowpool | fix(Project 03): disable option buttons immediately after answering |
+| 2021-12-21 | 10:18:12 | im_shadowpool | feat(Project 03): add quiz summary score card and restart button |
