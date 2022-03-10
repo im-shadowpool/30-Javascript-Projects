@@ -785,3 +785,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2022-03-07 | 11:48:29 | im_shadowpool | feat(Project 02): add category filter (All, Active, Completed) |
 | 2022-03-08 | 10:18:12 | im_shadowpool | refactor(Project 02): simplify task delete and edit event handlers |
 | 2022-03-08 | 11:48:29 | im_shadowpool | feat(Project 03): implement countdown timer per question |
+| 2022-03-10 | 10:18:12 | im_shadowpool | style(Project 03): highlight correct option in green and incorrect in red |
