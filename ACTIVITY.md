@@ -824,3 +824,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2022-04-16 | 10:18:12 | im_shadowpool | fix(Project 11): prevent drift by calculating delta time instead of fixed interval |
 | 2022-04-16 | 11:48:29 | im_shadowpool | feat(Project 12): build core arithmetic expression evaluator |
 | 2022-04-22 | 10:18:12 | im_shadowpool | feat(Project 12): support keyboard numpad and enter key inputs |
+| 2022-04-26 | 10:18:12 | im_shadowpool | fix(Project 12): prevent multiple consecutive decimal points |
