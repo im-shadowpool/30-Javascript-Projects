@@ -1062,3 +1062,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2022-12-02 | 10:18:12 | im_shadowpool | feat(Project 02): persist todo items in browser localStorage |
 | 2022-12-03 | 10:18:12 | im_shadowpool | style(Project 02): add strike-through animation on task completion |
 | 2022-12-07 | 10:18:12 | im_shadowpool | fix(Project 02): prevent adding empty or whitespace-only tasks |
+| 2022-12-07 | 11:48:29 | im_shadowpool | feat(Project 02): add category filter (All, Active, Completed) |
