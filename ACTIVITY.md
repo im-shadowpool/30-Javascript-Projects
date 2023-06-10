@@ -1263,3 +1263,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2023-06-07 | 11:48:29 | im_shadowpool | feat(Project 17): add priority badges (High, Medium, Low) to tasks |
 | 2023-06-07 | 14:41:46 | im_shadowpool | feat(Project 17): support drag and drop task reordering |
 | 2023-06-07 | 16:34:03 | im_shadowpool | feat(Project 17): add search filter to quickly find tasks |
+| 2023-06-10 | 10:18:12 | im_shadowpool | style(Project 17): polish mobile touch gesture task deletion |
