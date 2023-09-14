@@ -1327,3 +1327,4 @@ Historical milestones and development activity log across projects 01 through 17
 | 2023-08-29 | 16:34:03 | im_shadowpool | feat(Project 15): add scientific calculations (sqrt, power, percentage) |
 | 2023-08-29 | 17:17:20 | im_shadowpool | feat(Project 15): add calculation history log drawer |
 | 2023-09-05 | 10:18:12 | im_shadowpool | style(Project 15): add dark and light theme toggle switcher |
+| 2023-09-14 | 10:18:12 | im_shadowpool | feat(Project 16): fetch category questions from Open Trivia DB |
