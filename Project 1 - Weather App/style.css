@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #555;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 80px auto 0;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.search {
+    margin: 15px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    height: 45px;
+    padding: 15px;
+    flex: 1;
+    font-size: 18px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.search button {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search button img {
+   
+    width: 15px;
+}
+
+.weather {
+    margin: 30px auto 50px;
+}
+
+.weather img {
+    margin: 0 30px;
+    width: 150px;
+}
+
+.weather .temp {
+    margin: 5px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.description{
+    margin-top: -6px;
+    color: rgb(255, 255, 255, 0.9);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.weather .city {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.info img {
+    width: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}
+
+.humidity, .wind{
+    margin-left: 10px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.main{
+ display: none;
+}
+
+.error{
+    color: #000000;
+    text-align: start;
+    display: none;
+    background-color: #ffc3c3;
+    border-radius: 10px;
+    border-color: #ff5757;
+    border-style: solid;
+    padding: 10px;
+    margin: 40px auto;
+}
