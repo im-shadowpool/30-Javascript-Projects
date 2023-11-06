@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Strong Random Password Generator</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container">
+            <h1>Generate</br><span id="rp">Random Password</span></h1>
+            <div class="twobtns">
+                <div class="textbox">
+                    <input id="password" type="text" placeholder="Password">
+                    <img onclick="copyfun()" id="copy" src="copy.png">
+                </div>
+                <div class="addtodock">
+                    <button onclick="adddock()" id="addtodockbtn">Add to Dock</button>
+                </div>
+            </div>
+
+            <div class="btncard">
+                <button onclick="GenPass()" class="generatebtn"><img src="gene.png">Generate Password</button>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="titledock">
+                <h3> <img src="pass.png" alt="">Password Dock</h3>
+            </div>
+
+            <div class="dockeditor">
+                <div class="passcard">
+                    <P>Pass: </P>
+                    <input id="passtag" type="text">
+                </div>
+                <input id="tag" type="text" placeholder="Password tag name">
+                <button onclick="addtolist()" id="addbtn">Add</button>
+            </div>
+
+            <div class="listcard">
+
+                <ul class="ulcontainer">
+
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
