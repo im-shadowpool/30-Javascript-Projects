@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre', serif;
+}
+
+body{
+    background-color: #FFFBF5;
+}
+
+.card{
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+ h2::after{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: black;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card blockquote{
+    font-size: 28px;
+    min-height: 110px;
+}
+.card blockquote::after, .card blockquote::before{
+    content: '"';
+}
+
+span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 3px;
+    top: 50%;
+    left: -20px;
+
+}
+.card div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+    outline: 0;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#twt{
+    
+    color: black;
+    border: 2px  solid #574343;
+    background-color: transparent;
+}
+
+button img{
+    width: 25px;
+    margin-right: 5px;
+}
