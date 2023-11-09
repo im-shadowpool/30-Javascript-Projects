@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+body{
+    background-color: #26577C;
+}
+
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.13);
+    width: 90%;
+    max-width: 460px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    padding: 40px 40px 40px;
+    border-radius: 8px;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    border-radius: 10%;
+    margin: 30px 0 0;
+}
+
+.card p{
+    margin: 20px 0;
+    color: rgb(81, 81, 81);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: rgba(191, 227, 255, 0.363);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card input{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 2px solid #26577C;
+    padding: 10px 15px;
+    margin: 10px 0 0;
+}
+
+.imgBox{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px;
+}
+
+.imgBox img{
+    display: none;
+}
+.buttoncard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buttoncard button{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-color: #26577C;
+    color: #fff;
+    height: 44px;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+#download{
+    display: none;
+}
+
+.resize{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.resize button{
+    outline: 0;
+    border: 0;
+    background-color: rgb(247, 251, 255);
+    border: 2px solid #26577C;
+    cursor: pointer;
+    color: black;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.resize .selectedb1{
+    background-color: #26577C;
+    color: #fff;
+}
+.resize .selectedb2{
+    background-color: #26577C;
+    color: #fff;
+}
+.resize .selectedb3{
+    background-color: #26577C;
+    color: #fff;
+}
