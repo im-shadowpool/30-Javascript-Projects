@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Mono&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Fira Mono', monospace;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    background-color: #fff;
+    margin: 100px auto 0;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 4px;
+    padding: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.container div {
+    margin: 40px 130px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container div i {
+    cursor: pointer;
+    font-size: 35px;
+    color: darkslategrey;
+}
+
+.container div i:nth-child(2) {
+    font-size: 50px;
+}
+
+ul {
+    margin: 60px 0 auto;
+}
+
+ul li{
+    margin: 10px 130px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: darkslategrey;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
