@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body class="bg-[#609d9f]">
     <div class="progress">
-        <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
     </div>
 
-    <div class="card">
-        <div class="head">
-            <h1>Frontend Web Dev Quiz</h1>
-            <a href="#">Select topic</a>
+    <div class="card bg-white max-w-2xl w-11/12 mt-24 mx-auto p-7 rounded-lg shadow-md">
+      <div class="head p-0.5 flex justify-between content-center border-b-2 border-zinc-300 pb-4">
+        <h1 class="text-2xl font-bold leading-10">Frontend Web Dev Quiz</h1>
+        <a href="#" class="py-2 px-2.5 rounded-md bg-[#558a8c] text-white">Select topic</a>
+      </div>
+
+      <div class="question-card my-6 p-1">
+        <h2 id="question" class="font-semibold text-xl tracking-wide leading-10" >The Question goes here?</h2>
+        <div class="btncard">
+          <button class="ans">Anser 1</button>
+          <button class="ans">Anser 1</button>
+          <button class="ans">Anser 1</button>
+          <button class="ans">Anser 1</button>
         </div>
 
-
-
-        <div class="question-card">
-            <h2 id="question">The Question goes here?</h2>
-            <div class="btncard">
-                <button class="ans">Anser 1</button>
-                <button class="ans">Anser 1</button>
-                <button class="ans">Anser 1</button>
-                <button class="ans">Anser 1</button>
-            </div>
-
-            <p id="finalcard">You scored 50 out of 12</p>
-
-        </div>
-        <div>
-            <button id="nextbtn">Next</button>
-        </div>
+        <p id="finalcard">You scored 50 out of 12</p>
+      </div>
+      <div>
+        <button id="nextbtn">Next</button>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
