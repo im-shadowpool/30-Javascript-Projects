@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Scientific Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <div class="display">
-            <input type="text" placeholder="0">
-        </div>
-        <div class="btns">
-            <div class="row">
-                <button class="btn">CE</button>
-                <button class="btn">x!</button>
-                <button class="btn">(</button>
-                <button class="btn">)</button>
-                <button class="btn">%</button>
-                <button class="btn">AC</button>
-            </div>
-            <div class="row">
-                <button class="btn">sin</button>
-                <button class="btn">pi</button>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn">/</button>
-            </div>
-            <div class="row">
-                <button class="btn">cos</button>
-                <button class="btn">log</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn">*</button>
-            </div>
-            <div class="row">
-                <button class="btn">tan</button>
-                <button class="btn">root</button>
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">-</button>
-            </div>
-            <div class="row">
-                <button class="btn">e</button>
-                <button class="btn">x^y</button>
-                <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button class="btn">=</button>
-                <button class="btn">+</button>
-            </div>
-        </div>
-        
+  <div class="container">
+    <div class="display">
+      <input type="text" id="result" placeholder="0" readonly />
     </div>
+    <div class="btns">
+      <div class="row">
+        <button class="btn" onclick="clearEntry()">CE</button>
+        <button class="btn" onclick="factorial()">x!</button>
+        <button class="btn" onclick="appendValue('(')">(</button>
+        <button class="btn" onclick="appendValue(')')">)</button>
+        <button class="btn" onclick="appendValue('%')">%</button>
+        <button class="btn" onclick="clearAll()">AC</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="appendFunc('Math.sin(')">sin</button>
+        <button class="btn" onclick="appendValue('Math.PI')">π</button>
+        <button class="btn" onclick="appendValue('7')">7</button>
+        <button class="btn" onclick="appendValue('8')">8</button>
+        <button class="btn" onclick="appendValue('9')">9</button>
+        <button class="btn" onclick="appendValue('/')">/</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="appendFunc('Math.cos(')">cos</button>
+        <button class="btn" onclick="appendFunc('Math.log10(')">log</button>
+        <button class="btn" onclick="appendValue('4')">4</button>
+        <button class="btn" onclick="appendValue('5')">5</button>
+        <button class="btn" onclick="appendValue('6')">6</button>
+        <button class="btn" onclick="appendValue('*')">*</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="appendFunc('Math.tan(')">tan</button>
+        <button class="btn" onclick="appendFunc('Math.sqrt(')">√</button>
+        <button class="btn" onclick="appendValue('1')">1</button>
+        <button class="btn" onclick="appendValue('2')">2</button>
+        <button class="btn" onclick="appendValue('3')">3</button>
+        <button class="btn" onclick="appendValue('-')">-</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="appendValue('Math.E')">e</button>
+        <button class="btn" onclick="appendFunc('Math.pow(')">x<sup>y</sup></button>
+        <button class="btn" onclick="appendValue('0')">0</button>
+        <button class="btn" onclick="appendValue('.')">.</button>
+        <button class="btn" onclick="calculate()">=</button>
+        <button class="btn" onclick="appendValue('+')">+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
