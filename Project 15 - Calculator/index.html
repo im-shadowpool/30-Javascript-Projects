@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <style>
+    body {
+        /* background: #fff; */
+      background: #121212;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    *{
+        transition: all 0.3s ease-in-out;
+    }
+
+    .wrppercalc {
+      background: #000;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+      width: 320px;
+    }
+
+    .scrEeNn {
+      height: 60px;
+            /* font-size: 2.2rem;
+      padding: 10px 15px;
+      border-radius: 10px;
+      overflow: hidden; */
+      margin-bottom: 15px;
+      background: #2e2e2e;
+      color: white;
+      text-align: right;
+      font-size: 2.2rem;
+      padding: 10px 15px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .btnsGriddzz {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .btnEach {
+      background: #3e3e3e;
+      color: white;
+      border: none;
+      border-radius: 100px;
+      font-size: 1.4rem;
+      padding: 20px;
+      cursor: pointer;
+          transform: scale(1);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btnEach:hover {
+      background: #5a5a5a;
+    }
+
+    .btnOpZ {
+      background: #ff9f0a;
+      color: white;
+    }
+
+    .btnClr {
+      background: #a5a5a5;
+      color: black;
+    }
+
+    .btnZeroWide {
+      grid-column: span 2;
+    }
+    body.dark-mode {
+    background: #ecfdf7;
+}
+.dark-mode .btnEach{
+    background: #056050;
+}
+.dark-mode .btnEach:hover{
+    background: #00232fb5;
+}
+.dark-mode .wrppercalc{
+    background: #d0fbe9;
+        box-shadow: 0 8px 30px rgb(0 0 0 / 21%);
+}
+.dark-mode .btnClr {
+    background: #22656b;
+    color: white;
+}
+.dark-mode .btnClr:hover {
+    background: #ffffff;
+    color: #22656b;
+}
+.dark-mode .scrEeNn{
+    background: #fff;
+    color: black;
+}
+.dark-mode .btnOpZ {
+    background: #ffffff;
+    color: #22656b;
+}
+.dark-mode .btnOpZ:hover {
+    background: #22656b;
+    color: #ffffff;
+}
+
+.btnEach:active {
+    transform: scale(0.8);
+}
+
+.MyDarkModeButton {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    right: 20px;
+    background: black;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+       transform: scale(1);
+    align-items: center;
+    box-shadow: 0 8px 30px rgb(147 147 147 / 10%);
+}
+.MyDarkModeButton:hover  {
+   transform: scale(1.1);
+}
+.dark-mode .MyDarkModeButton {
+    background: white;
+box-shadow: 0 8px 30px rgb(98 195 185 / 63%);
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrppercalc">
+    <div id="disPlayText" class="scrEeNn">0</div>
+    <div class="btnsGriddzz">
+        <!-- <div onclick="clrAll()">AC</div> -->
+      <button class="btnEach btnClr" onclick="clrAll()">AC</button>
+      <button class="btnEach btnClr" onclick="addToDisplay('00')">00</button>
+      <button class="btnEach btnClr" onclick="addToDisplay('%')">%</button>
+      <button class="btnEach btnOpZ" onclick="addToDisplay('/')">÷</button>
+
+      <button class="btnEach" onclick="addToDisplay('7')">7</button>
+      <button class="btnEach" onclick="addToDisplay('8')">8</button>
+      <button class="btnEach" onclick="addToDisplay('9')">9</button>
+      <button class="btnEach btnOpZ" onclick="addToDisplay('*')">×</button>
+
+      <button class="btnEach" onclick="addToDisplay('4')">4</button>
+      <button class="btnEach" onclick="addToDisplay('5')">5</button>
+      <button class="btnEach" onclick="addToDisplay('6')">6</button>
+      <button class="btnEach btnOpZ" onclick="addToDisplay('-')">−</button>
+        <!-- <div class="" onclick="calculate()">-</div> -->
+      <button class="btnEach" onclick="addToDisplay('1')">1</button>
+      <button class="btnEach" onclick="addToDisplay('2')">2</button>
+      <button class="btnEach" onclick="addToDisplay('3')">3</button>
+      <button class="btnEach btnOpZ" onclick="addToDisplay('+')">+</button>
+
+      <button class="btnEach btnZeroWide" onclick="addToDisplay('0')">0</button>
+      <button class="btnEach" onclick="addToDisplay('.')">.</button>
+      <!-- <button class=" " onclick="calculate()">=</button> -->
+      <button class="btnEach btnOpZ" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+<div class="MyDarkModeButton">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+    <title>ic_fluent_dark_theme_24_regular</title>
+    <desc>Created with Sketch.</desc>
+    <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
+            <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z" id="🎨-Color">
+
+</path>
+        </g>
+    </g>
+</svg></div>
+
+
+  <script>
+    let mysceenInput = document.getElementById('disPlayText');
+
+    function addToDisplay(value) {
+      if (mysceenInput.textContent === '0' && value !== '.') {
+        mysceenInput.textContent = value;
+      } else {
+        mysceenInput.textContent += value;
+      }
+    }
+
+    //const outptVal =  eval(mysceenInput.textContent)
+    // console.log(outptVal);
+
+    
+    //const outptVal =  eval(mysceenInput.textContent.replace('%', ""))
+    // console.log(outptVal);
+
+    function clrAll() {
+      mysceenInput.textContent = '0';
+    }
+
+    function calculate() {
+      try {
+        console.log(mysceenInput.textContent);
+        let result = eval(mysceenInput.textContent.replace('%', '/100'));
+        console.log(result);
+        mysceenInput.textContent = result;
+      } catch (e) {
+        mysceenInput.textContent = 'Err';
+      }
+    }
+
+    // Dark mode toggle
+    const MyDarkModeButton = document.querySelector('.MyDarkModeButton');
+
+    MyDarkModeButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
