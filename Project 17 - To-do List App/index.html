@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/755df60823.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title> Online To-Do list</title>
+</head>
+<body>
+     
+    <div class="container">
+    
+        <header class="text-light text-center my-4">
+            <h1 class="mb-4">Online To-Do List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="Search To-Do's" />
+            </form>
+        </header>
+
+
+
+
+
+        <!-- To do list start -->
+        <ul class="list-group todos mx-auto">
+            <li class="list-group-item mb-1 d-flex justify-content-between align-items-center">
+                <span>Complete the JavaScript</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item mb-1 d-flex justify-content-between align-items-center">
+                <span>Complete the React</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item mb-1 d-flex justify-content-between align-items-center">
+                <span>Complete the Node Js</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item mb-1 d-flex justify-content-between align-items-center">
+                <span>Complete any Database</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item mb-1 d-flex justify-content-between align-items-center">
+                <span>Complete the Full Backend</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+        </ul>
+
+        <div class="my-5">
+            <form class="add text-center">
+                <h5>Add To-Do</h5>
+                <input class="form-control m-auto" type="text" name="add" placeholder="Add New"/>
+                
+            </form>
+        </div>
+
+    </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
