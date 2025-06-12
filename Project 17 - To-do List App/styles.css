@@ -1,0 +1,56 @@
+body{
+    background: #352f5b;
+    
+}
+
+.container{
+    max-width: 400px;
+}
+input[placeholder]::placeholder {
+    color: rgb(143, 141, 141);
+}
+
+input[type=text],
+input[type=text]:focus{
+    border: none;
+    background: rgb(0, 0, 0,0.3);
+    color: #ffffff;
+    max-width: 400px;
+}
+
+.todos li{
+    background: #423a6f;
+    color: #fff;
+    border: none;
+    margin-top: 4px;
+    padding: 12px;
+    
+}
+
+li:hover {
+    /* CSS properties for the hover state */
+    
+    background-color: #6a63999c;
+  }
+
+.delete{
+    cursor: pointer;
+}
+
+
+.Filtered{
+    display: none !important;
+}
+
+
+
+h5{
+    
+    max-width: 400px;
+    color: #fff;
+    background-color:#423a6f;
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
